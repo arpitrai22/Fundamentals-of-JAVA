@@ -8,9 +8,9 @@ public class NestedFor {
 
       for(j = 0; j < i; j++) {
 
-        System.out.println(i*j);
+        System.out.println("i = " + i + " j =" + j + " i*j =" + i*j);
       }
-      System.out.println();
+      System.out.println("__________________");
     }
 
   }
