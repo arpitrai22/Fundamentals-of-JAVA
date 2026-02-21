@@ -14,7 +14,7 @@ public class ArrayDeclare {
 
     }
     */
-   
+
    /* 
    int[] a = {10,20,30,44,44,53,34};
    int val = a[1];
@@ -28,8 +28,9 @@ public class ArrayDeclare {
 
    for(int i : arr1) {
 
-    System.out.println(i);
-    
+    if (i % 2 == 0) {
+      System.out.println(i);
+    }
 
    }
 
