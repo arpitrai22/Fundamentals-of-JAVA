@@ -2,6 +2,7 @@ public class ArrayDeclare {
   
   public static void main(String[] args) {
 
+    /* 
     int[] arr = new int[5];
 
     int i;
@@ -12,7 +13,11 @@ public class ArrayDeclare {
       System.out.println(arr[i]);
 
     }
+    */
+   int[] a = {10,20,30,44,44,53,34};
+   int val = a[1];
 
+   System.out.println("Value of Val:" + val);
 
   }
 
