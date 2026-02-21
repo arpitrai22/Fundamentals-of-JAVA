@@ -15,7 +15,8 @@ public class SumArrayatOdd {
       
     }
 
-    System.out.println(sum);
+    System.out.println("Sum of Elements at odd Index is:" + " " + sum);
+
 
   }
 
